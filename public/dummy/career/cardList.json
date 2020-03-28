@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "name":"dktechin kakao company.",
+        "cardList":[
+            {"id": 1, "name": "카카오 선물하기",           "imageUrl":"images/career/present.jpg",        "meta":"", "description":"화이트데이 프로모션" }
+        ]
+    },
+    {
+        "id":2,
+        "name":"애니모비(주)",
+        "cardList":[
+            {"id": 1, "name": "KT그룹교육포털",             "imageUrl":"images/career/ktedu.PNG",      "meta":"",        "description":"KT그룹 전직원 교육 LMS" },
+            {"id": 2, "name": "에너지 관리공단 환급사업",    "imageUrl":"images/career/refund.PNG",     "meta":"",      "description":"소비자 환급 신청 시스템" },
+            {"id": 3, "name": "전남 CMS",                  "imageUrl":"images/career/JN.PNG",          "meta":"",      "description":"전남도청 이미지 및 동영상 관리 시스템" },
+            {"id": 4, "name": "애니푸드",                  "imageUrl":"images/career/anyfood.png",     "meta":"",      "description":"학원 급식 신청" },
+            {"id": 5, "name": "더라운지멤버스",             "imageUrl":"images/career/thelounge.PNG",   "meta":"",      "description":"공항 라운지 예약 및 쿠폰 발급" },
+            {"id": 6, "name": "서울국제도서전",             "imageUrl":"images/career/sibf.jpg",        "meta":"",      "description":"2018 서울국제도서전 행사 안내" }
+        ]
+    },
+    {
+        "id":3,
+        "name":"새얀아이엔씨(주)",
+        "cardList":[
+            {"id": 1, "name": "공감",           "imageUrl":"images/career/gg.PNG",        "meta":"", "description":"현대 모비스(주) 직원 커뮤니티" }
+        ]
+    }
+]

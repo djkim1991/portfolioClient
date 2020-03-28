@@ -1,0 +1,51 @@
+[
+    {
+        "imgUrl"    :"/images/resume/spring.png",
+        "title"     :"Framework",
+        "content"   :"Spring & Springboot",
+        "percent"   :"100%",
+        "grade"     :"Outstanding"
+    },
+    {
+        "imgUrl"    :"/images/resume/language.png",
+        "title"     :"Programming Langueage",
+        "content"   :"Java, Javascript, Python, ...",
+        "percent"   :"100%",
+        "grade"     :"Outstanding"
+    },
+    {
+        "imgUrl"    :"/images/resume/database.png",
+        "title"     :"Relational Database",
+        "content"   :"MySQL, PostgreSQL, ...",
+        "percent"   :"80%",
+        "grade"     :"Excelent"
+    },
+    {
+        "imgUrl"    :"/images/resume/front.png",
+        "title"     :"Front-End",
+        "content"   :"React, Tymeleaf, ...",
+        "percent"   :"70%",
+        "grade"     :"Good"
+    },
+    {
+        "imgUrl"    :"/images/resume/back.png",
+        "title"     :"Back-End",
+        "content"   :"Redis, Hibernate, ...",
+        "percent"   :"80%",
+        "grade"     :"Excelent"
+    },
+    {
+        "imgUrl"    :"/images/resume/server.png",
+        "title"     :"Server Skills",
+        "content"   :"Docker, Kubernetes, ...",
+        "percent"   :"80%",
+        "grade"     :"Excelent"
+    },
+    {
+        "imgUrl"    :"/images/resume/ai.png",
+        "title"     :"AI",
+        "content"   :"Pytorch, TensorFlow, ...",
+        "percent"   :"80%",
+        "grade"     :"Excelent"
+    }
+]

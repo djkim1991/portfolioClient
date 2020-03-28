@@ -1,0 +1,13 @@
+[
+    {
+        "id":1,
+        "name":"Home",
+        "cardList":[
+            {"id": 1, "name": "Resume",             "linkUrl":"/resume",            "imageUrl":"images/home/resume.jpg",            "imageUrl2":"images/home/resume2.png",          "meta":"이력서",        "description":"민감한 개인정보를 제외한 이력서입니다." },
+            {"id": 2, "name": "Skills",             "linkUrl":"/skills",            "imageUrl":"images/home/skills.jpg",            "imageUrl2":"images/home/skills2.jpg",          "meta":"보유기술",      "description":"다양한 개발 기술들을 보유하고 있습니다." },
+            {"id": 3, "name": "Career",             "linkUrl":"/career",            "imageUrl":"images/home/career.jpg",            "imageUrl2":"images/home/career2.jpg",          "meta":"경력사항",      "description":"개발자로서 참여해온 프로젝트들입니다." },
+            {"id": 4, "name": "PersonalProject",    "linkUrl":"/personalproject",   "imageUrl":"images/home/personalProject.png",   "imageUrl2":"images/home/personalProject2.jpg", "meta":"개인 프로젝트", "description":"재미로 만들어본 토이 프로젝트들입니다." },
+            {"id": 5, "name": "Blog",               "linkUrl":"https://dororongju.tistory.com",              "imageUrl":"images/home/blog.png",              "imageUrl2":"images/home/blog2.png",            "meta":"블로그",        "description":"신입 시절부터 운영해온 블로그입니다." }
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name": "Home",               "cardsInfoUrl":"dummy/cards/homeCardList.json"},
+    {"id": 2, "name": "Resume"},
+    {"id": 3, "name": "Skills",             "cardsInfoUrl":"dummy/cards/skillsCardList.json"},
+    {"id": 4, "name": "Career"},
+    {"id": 5, "name": "PersonalProject"},
+    {"id": 6, "name": "Blog"}
+]

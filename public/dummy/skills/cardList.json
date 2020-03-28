@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "name":"Framework",
+        "cardList":[
+            {"id": 1, "name": "Spring",         "imageUrl":"images/skills/spring.jpg",           "imageUrl2":"images/skills/spring.jpg",           "meta":"",        "description":"" },
+            {"id": 2, "name": "SpringBoot",     "imageUrl":"images/skills/SpringBoot.png",       "imageUrl2":"images/skills/SpringBoot.png",       "meta":"",      "description":"" }
+        ]
+    },
+    {
+        "id":2,
+        "name":"Programming Language",
+        "cardList":[
+            {"id": 1, "name": "JAVA",           "imageUrl":"images/skills/java.jpg",        "meta":"", "description":"" },
+            {"id": 2, "name": "Python",         "imageUrl":"images/skills/python.jpg",      "meta":"", "description":"" },
+            {"id": 3, "name": "PHP",            "imageUrl":"images/skills/php.jpg",         "meta":"", "description":"" },
+            {"id": 3, "name": "JAVASCRIPT",     "imageUrl":"images/skills/javascript.png",  "meta":"", "description":"" }
+        ]
+    },
+    {
+        "id":3,
+        "name":"Relational Database",
+        "cardList":[
+            {"id": 1, "name": "MySQL",      "imageUrl":"images/skills/mysql.png",       "meta":"", "description":"" },
+            {"id": 2, "name": "PostgreSQL", "imageUrl":"images/skills/postgres.png",    "meta":"", "description":"" },
+            {"id": 3, "name": "MSSQL",      "imageUrl":"images/skills/mssql.jpg",       "meta":"", "description":"" }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Front-End",
+        "cardList":[
+            {"id": 1, "name": "React",          "imageUrl":"images/skills/react.jpg",       "meta":"", "description":"" },
+            {"id": 2, "name": "Thymeleaf",      "imageUrl":"images/skills/thymeleaf.png",   "meta":"", "description":"" }
+        ]
+    },
+    {
+        "id":5,
+        "name":"Back-End",
+        "cardList":[
+            {"id": 1, "name": "Redis",          "imageUrl":"images/skills/redis.png",           "meta":"", "description":"" },
+            {"id": 2, "name": "Elastic Search", "imageUrl":"images/skills/elasticsearch.png",   "meta":"", "description":"" },
+            {"id": 3, "name": "RabbitMQ",       "imageUrl":"images/skills/RabbitMQ.png",             "meta":"", "description":"" },
+            {"id": 3, "name": "JPA",            "imageUrl":"images/skills/jpa.png",             "meta":"", "description":"" }
+        ]
+    },
+    {
+        "id":6,
+        "name":"Server Skills",
+        "cardList":[
+            {"id": 1, "name": "AWS",        "imageUrl":"images/skills/aws.png",         "meta":"", "description":"" },
+            {"id": 2, "name": "HEORKU",     "imageUrl":"images/skills/Heroku.png",      "meta":"", "description":"" },
+            {"id": 3, "name": "DOCKER",     "imageUrl":"images/skills/docker.png",      "meta":"", "description":"" },
+            {"id": 4, "name": "KUBERNETES", "imageUrl":"images/skills/kubernetes.png",  "meta":"", "description":"" }
+        ]
+    },
+    {
+        "id":7,
+        "name":"AI",
+        "cardList":[
+            {"id": 1, "name": "Pytorch",        "imageUrl":"images/skills/pytorch.png",         "meta":"", "description":"" },
+            {"id": 2, "name": "TensorFlow",     "imageUrl":"images/skills/Tensorflow.png",      "meta":"", "description":"" }
+        ]
+    }
+]

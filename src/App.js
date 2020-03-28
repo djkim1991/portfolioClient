@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
+
+import PortfolioContainer from './containers/portfolioContainer/PortfolioContainer';
+import HomeContainer from './containers/bodyContainer/HomeContainer';
+import ResumeContainer from './containers/bodyContainer/ResumeContainer';
+import SkillsContainer from './containers/bodyContainer/SkillsContainer';
+import CareerContainer from './containers/bodyContainer/CareerContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router history={browserHistory}>
+        <Route path="/" component={PortfolioContainer}>
+            <IndexRoute component={HomeContainer}/>
+            <Route path="resume" component={ResumeContainer}/>
+            <Route path="skills" component={SkillsContainer}/>
+            <Route path="career" component={CareerContainer}/>
+        </Route>
+    </Router>
   );
 }
 

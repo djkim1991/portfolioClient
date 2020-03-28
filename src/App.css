@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
+body { text-align: center; background-color: #EEE; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* root */
+div#root { position: relative; min-height: 100%; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* HEADER */
+div.homepage-header { background-color: #1b1c1d; position: fixed; top:0; width: 100%; z-index: 100; }
+div.homepage-header ul.menu { display: inline-block; width: 1200px; text-align: left; }
+div.homepage-header ul.menu > li { display: inline-block; font-size: 1.2em; font-family: 'Noto Sans KR', sans-serif; }
+div.homepage-header ul.menu > li > a { display: inline-block; color: #FFF; opacity: 0.7; cursor: pointer; padding: 10px 20px; border-bottom: 2px solid #FFFFFF00; }
+div.homepage-header ul.menu > li > a.on { opacity: 1; border-bottom: 2px solid #FFF;  }
+div.homepage-header ul.menu > li > a:hover { opacity: 1; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* BODY */
+div.homepage-body { padding-top: 4rem; padding-bottom: 8rem; }
+div.homepage-body .ui.ribbon.label { z-index: 9; }
+div.homepage-body .ui.ribbon.label { z-index: 9; }
+div.homepage-body div.ui.raised.segment { margin-top: 4rem; background-color: #DDD; }
+/* GRID  */
+div.homepage-body div.ui.container.grid { z-index: 8; margin: auto; margin-top: -2rem; border: 1px solid #BBB; background-color: #EEE; }
+div.homepage-body div.ui.container.grid > div.column { min-width: 255px; width: 30.33%; margin: 10px; }
+div.homepage-body div.ui.container.grid > div.column .card { width: auto; box-shadow: 0 1px 2px #555; border: 1px solid #999; cursor: pointer; }
+div.homepage-body div.ui.container.grid > div.column .card img { width: 100%; background-color: red; }
 
-.App-link {
-  color: #61dafb;
-}
+div.ui.vertically.divided.grid { z-index: 8; margin: auto; margin-top: -2rem; border: 1px solid #BBB; background-color: #EEE; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* FOOTER */
+div.homepage-footer { position: absolute; background-color: #1b1c1d; color: #FFF; bottom: 0; width: 100%; }
+div.homepage-footer > span { display: inline-block; font-size: 1em; padding: 20px; }
+
+
+/* Profile */
+div.resume { font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif; color: #333; }
+div.resume div.profile div { font-size: 1rem; }
+div.resume div.profile div > span { display: inline-block; padding: 5px 0px; }
+div.resume div.profile div > span.title { font-size: 1.1rem; font-weight: 600; }
+div.resume div.profile div > span.name { font-size: 2.5rem; font-weight: 1000; padding: 10px 0 30px 0; }
+div.resume div.profile div > i { font-size: 1rem; color: #0F6FB9; padding: 6px 0px; }
+
+div.resume div.profile div > img { display: inline-block; border: 7px solid #0F6FB9; width: 14rem; height: 14rem; }
+
+div.resume div.ui.top.attached.label { background: none; color: #0F6FB9; }
+
+/* resume skill */
+div.resume div.skill { position: relative; height: 6rem; }
+div.resume div.skill > div.thumbnail { position: absolute; left: 4rem; height: 5rem; display: inline-block; width: 5rem; }
+div.resume div.skill > div.content { position: absolute; left: 10rem; height: 5rem; display: inline-block; width: 12rem; }
+div.resume div.skill > div.content > span.title { font-weight: bold; }
+div.resume div.skill > div.content > span.content { color: #888; }
+div.resume div.skill > div.content > div.ui.progress > div.bar { background-color: #0F6FB9; }
+
+
+/* hobby */
+div.resume div.row.hobbies { padding: 0 4rem; text-align: center; }
+div.resume div.hobbies div.hobby { width: 7rem; }
+div.resume div.hobbies div.hobby > div.thumbnail { height: 7rem; width: 7rem; }
+div.resume div.hobbies div.hobby > div.thumbnail > img { height: 7rem; width: 7rem; border: 1px solid #888; border-radius: 5px; background-color: #0F6FB9; padding: 0.2rem; }
+div.resume div.hobbies div.hobby > div.content > span.title { font-weight: bold; }
+div.resume div.hobbies div.hobby > div.content > span.content { color: #888; }
+
+
+/* common */
+.color-blue { color: #0F6FB9; }
+.bold { font-weight: bold; }
+.margin-right-1rem { margin-right: 1rem; }
+div.timeline { border-left: 2px solid #0F6FB9; display: inline-block; text-align: left; padding: 1rem; }
+div.timeline > div { height: 2rem; }
+div.timeline > div.title { margin-top: 1rem; margin-left: -1.6rem; font-weight: bold; }
+div.timeline > div.content { margin-left: -0.2rem; color: #888; }
